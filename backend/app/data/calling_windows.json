@@ -1,0 +1,6 @@
+{
+  "NY": {"label": "New York", "start_hour": 8, "end_hour": 21},
+  "CA": {"label": "California", "start_hour": 8, "end_hour": 21},
+  "TX": {"label": "Texas", "start_hour": 8, "end_hour": 21},
+  "FL": {"label": "Florida", "start_hour": 8, "end_hour": 20}
+}

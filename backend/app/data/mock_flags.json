@@ -1,0 +1,38 @@
+[
+  {
+    "call_id": "CLL-1001",
+    "client_name": "Meridian Bank",
+    "transcript_snippet": "Agent: Great, I've marked this account as paid in full today. Customer: Wait, I said I'd think about it, I didn't agree to anything. Agent: Understood, have a great day.",
+    "flag_reason": "Supervisor noted the call was logged as 'payment confirmed' but the recording doesn't sound like the customer agreed."
+  },
+  {
+    "call_id": "CLL-1002",
+    "client_name": "Apex Auto Finance",
+    "transcript_snippet": "Customer: Can this affect my credit score? Agent: No, missed payments never affect your credit score at all, don't worry about it.",
+    "flag_reason": "Client compliance team flagged this line as potentially inaccurate."
+  },
+  {
+    "call_id": "CLL-1003",
+    "client_name": "Sterling Collections",
+    "transcript_snippet": "Agent: Hi, this is Hannah calling on behalf of- [CALL ENDED, duration 4s]",
+    "flag_reason": "Call duration under 5 seconds, flagged by automatic QA rule."
+  },
+  {
+    "call_id": "CLL-1004",
+    "client_name": "SecureLife Insurance",
+    "transcript_snippet": "Customer: I already paid this last week. Agent: I don't see that in my system, let's go ahead and set up a payment plan. Customer: I'm telling you I paid it. Agent: Understood, setting up the plan now.",
+    "flag_reason": "Customer disputed the debt and agent proceeded without escalating or verifying."
+  },
+  {
+    "call_id": "CLL-1005",
+    "client_name": "Union Capital",
+    "transcript_snippet": "Agent: Can you confirm your date of birth for verification? Customer: [provides DOB]. Agent: Perfect, and just to note, this call may be [CALL ENDED, duration 11s]",
+    "flag_reason": "Call dropped mid-disclosure, before required compliance statement finished."
+  },
+  {
+    "call_id": "CLL-1006",
+    "client_name": "Harbor Insurance Group",
+    "transcript_snippet": "Agent: I've noted you refused to pay today. Customer: No, I said I could pay next Friday, not that I refused.",
+    "flag_reason": "Outcome logged as 'refused' but customer proposed a future payment date."
+  }
+]

@@ -1,0 +1,9 @@
+# Optional, local-only: enables POST /api/transcribe (audio -> text).
+# Not part of requirements.txt because faster-whisper's dependencies
+# (~120MB) are too large for the Vercel deploy, and its model would have to
+# re-download on every serverless cold start anyway. Install this on top of
+# requirements.txt if you want to test the audio upload feature locally:
+#
+#   pip install -r requirements.txt -r requirements-local.txt
+#
+faster-whisper>=1.0,<2.0

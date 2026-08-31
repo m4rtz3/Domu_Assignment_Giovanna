@@ -1,0 +1,20 @@
+[
+  {
+    "issue_id": "OBJ-001",
+    "client_name": "Meridian Bank",
+    "current_prompt": "You are Hannah, a voice agent calling on behalf of Meridian Bank regarding an outstanding balance. Identify yourself and the company, state the call may be recorded, and ask for payment of the amount owed.",
+    "problem_description": "Customers say the agent just repeats the same payment request when they say they can't afford it, instead of offering any alternative. A few calls ended with the customer hanging up."
+  },
+  {
+    "issue_id": "OBJ-002",
+    "client_name": "Apex Auto Finance",
+    "current_prompt": "You are Hannah, a voice agent calling on behalf of Apex Auto Finance about a past-due auto loan payment. Confirm the customer's identity, state the amount owed, and ask them to pay today.",
+    "problem_description": "When customers dispute the amount owed, the agent keeps asking them to pay instead of pausing to address the dispute. One customer reported feeling pressured even after saying the amount was wrong."
+  },
+  {
+    "issue_id": "OBJ-003",
+    "client_name": "Sterling Collections",
+    "current_prompt": "You are Hannah, calling on behalf of Sterling Collections. Identify the company, confirm the customer, and request payment of the balance shown on the account.",
+    "problem_description": "Customers who say they need more time (payday is next week, waiting on a paycheck) don't get any acknowledgment -- the agent just repeats the request for payment today, which several customers found frustrating enough to hang up."
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "client_id": "meridian-bank",
+    "client_name": "Meridian Bank",
+    "total_calls": 4820,
+    "answered": 2915,
+    "payment_secured": 641,
+    "failed": 1905,
+    "avg_handle_time_seconds": 240,
+    "top_failure_reason": "No answer / voicemail",
+    "calls_by_day": {"Mon": 750, "Tue": 780, "Wed": 800, "Thu": 770, "Fri": 760, "Sat": 590, "Sun": 370}
+  },
+  {
+    "client_id": "coastal-cu",
+    "client_name": "Coastal Credit Union",
+    "total_calls": 2140,
+    "answered": 1390,
+    "payment_secured": 298,
+    "failed": 750,
+    "avg_handle_time_seconds": 265,
+    "top_failure_reason": "Call dropped before verification",
+    "calls_by_day": {"Mon": 330, "Tue": 340, "Wed": 350, "Thu": 330, "Fri": 320, "Sat": 280, "Sun": 190}
+  },
+  {
+    "client_id": "securelife",
+    "client_name": "SecureLife Insurance",
+    "total_calls": 3305,
+    "answered": 1988,
+    "payment_secured": 512,
+    "failed": 1317,
+    "avg_handle_time_seconds": 255,
+    "top_failure_reason": "No answer / voicemail",
+    "calls_by_day": {"Mon": 510, "Tue": 520, "Wed": 530, "Thu": 500, "Fri": 490, "Sat": 420, "Sun": 335}
+  },
+  {
+    "client_id": "apex-auto",
+    "client_name": "Apex Auto Finance",
+    "total_calls": 5610,
+    "answered": 3140,
+    "payment_secured": 689,
+    "failed": 2470,
+    "avg_handle_time_seconds": 210,
+    "top_failure_reason": "Line busy",
+    "calls_by_day": {"Mon": 870, "Tue": 890, "Wed": 900, "Thu": 880, "Fri": 860, "Sat": 690, "Sun": 520}
+  },
+  {
+    "client_id": "union-capital",
+    "client_name": "Union Capital",
+    "total_calls": 1875,
+    "answered": 1102,
+    "payment_secured": 201,
+    "failed": 773,
+    "avg_handle_time_seconds": 275,
+    "top_failure_reason": "Declined to continue",
+    "calls_by_day": {"Mon": 290, "Tue": 300, "Wed": 310, "Thu": 290, "Fri": 280, "Sat": 230, "Sun": 175}
+  },
+  {
+    "client_id": "harbor-insurance",
+    "client_name": "Harbor Insurance Group",
+    "total_calls": 2760,
+    "answered": 1611,
+    "payment_secured": 334,
+    "failed": 1149,
+    "avg_handle_time_seconds": 260,
+    "top_failure_reason": "No answer / voicemail",
+    "calls_by_day": {"Mon": 430, "Tue": 440, "Wed": 450, "Thu": 420, "Fri": 410, "Sat": 350, "Sun": 260}
+  },
+  {
+    "client_id": "sterling-collections",
+    "client_name": "Sterling Collections",
+    "total_calls": 6230,
+    "answered": 3402,
+    "payment_secured": 955,
+    "failed": 2828,
+    "avg_handle_time_seconds": 195,
+    "top_failure_reason": "Wrong number / disconnected",
+    "calls_by_day": {"Mon": 970, "Tue": 990, "Wed": 1010, "Thu": 980, "Fri": 960, "Sat": 760, "Sun": 560}
+  }
+]

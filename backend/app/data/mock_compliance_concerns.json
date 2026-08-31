@@ -1,0 +1,26 @@
+[
+  {
+    "concern_id": "CMP-001",
+    "client_name": "Apex Auto Finance",
+    "transcript_snippet": "Customer: \"Can this affect my credit score?\"\nAgent: \"No, missed payments never affect your credit score at all, don't worry about it.\"",
+    "concern_description": "Client's compliance team flagged this statement as potentially inaccurate and asked us to investigate whether it violates debt collection regulations."
+  },
+  {
+    "concern_id": "CMP-002",
+    "client_name": "Meridian Bank",
+    "transcript_snippet": "Agent: \"If you don't pay today, we will have to take legal action against you immediately.\"\nCustomer: \"Wait, you're suing me?\"\nAgent: \"That's what happens if you don't pay.\"",
+    "concern_description": "The customer's attorney reached out saying the agent threatened immediate legal action, which the client says is not standard procedure and may violate rules against false or misleading threats."
+  },
+  {
+    "concern_id": "CMP-003",
+    "client_name": "Coastal Credit Union",
+    "transcript_snippet": "Agent: \"Hi, this is Hannah. I need to confirm your balance is $340. Can you pay that today?\"\n[No company name, purpose of call, or recording disclosure given before discussing the account]",
+    "concern_description": "Client's legal team noticed the call skipped the standard opening disclosure (company name, call purpose, recording notice) before discussing account details."
+  },
+  {
+    "concern_id": "CMP-004",
+    "client_name": "SecureLife Insurance",
+    "transcript_snippet": "Agent: \"Before we continue, can I get your date of birth?\"\nCustomer: \"I'd rather not share that, can you just tell me my balance?\"\nAgent: \"Sure, your balance is $1,240.50 and it's due next week.\"",
+    "concern_description": "Customer complained that the agent revealed account balance details without completing identity verification, which the client is concerned may be a privacy/compliance issue."
+  }
+]
